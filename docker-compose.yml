@@ -16,7 +16,7 @@ services:
       SENDGRID_API_KEY: ${SENDGRID_API_KEY}
       EMAIL_FROM: ${EMAIL_FROM}
     ports:
-      - "3001:3001"
+      - "3007:3001"
     deploy:
       placement:
         constraints: ["${NODE}"]  
